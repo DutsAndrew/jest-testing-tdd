@@ -1,0 +1,5 @@
+const capitalizeIt = require('./index');
+
+test('it works', () => {
+  expect(1).toBe(1);
+})
