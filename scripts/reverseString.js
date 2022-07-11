@@ -3,4 +3,4 @@ function reverseString(string) {
   return newString;
 }
 
-module.exports = reverseString;
+export { reverseString }

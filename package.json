@@ -18,5 +18,8 @@
   "homepage": "https://github.com/DutsAndrew/ttd-practice#readme",
   "devDependencies": {
     "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
