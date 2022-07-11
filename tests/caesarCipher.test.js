@@ -9,9 +9,13 @@ test('caesarCipher shifts when cipher amount isn\'t 0', () => {
 })
 
 test('caesarCipher can shift through alphabet multiple times', () => {
-  expect(caesarCipher('Aaa', 30)).toBe('Ddd');
+  expect(caesarCipher('Aaa', 30)).toBe('Eee');
 })
 
 test('caesarCipher can shift from Z to A', () => {
   expect(caesarCipher('Zzz', 2)).toBe('Bbb');
+})
+
+test('caesarCipher doesn\'t have punctuation', () => {
+  expect(caesarCipher('Thats fine.', 1)).toBe('Uibut gjof');
 })
